@@ -34,6 +34,9 @@ ul {
 .page-nav .link:focus {
   color: #404bbf;
 }
+.contacts {
+  font-style: normal;
+}
 .contacts .info {
   color: #434455;
   text-decoration: none;
