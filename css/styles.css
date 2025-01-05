@@ -1,93 +1,159 @@
+body {
+  color: #434455;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+.page-nav {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
 .main-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 0px;
-  width: 115px;
-  height: 24px;
 }
 .main-logo .logo {
   color: #2e2f42;
 }
 .page-nav .link {
-  color: black;
   text-decoration: none;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 40px;
-  width: 261px;
-  height: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
-.page-nav .link:hover {
-  color: #4d5ae5;
+.page-nav .link:hover,
+.page-nav .link:focus {
+  color: #404bbf;
 }
 .contacts .info {
+  color: #2e2f42;
   text-decoration: none;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
   font-style: normal;
 }
 .contacts .info:hover,
 .contacts .info:focus {
   color: #404bbf;
 }
-header {
-  width: 1440px;
-  height: 72px;
+.hero-section {
+  background-color: #2e2f42;
 }
-.hero-section h1 {
+.hero-section .title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07143;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #ffffff;
-  padding-left: 472px;
-  padding-right: 472px;
-  padding-top: 188px;
-  padding-bottom: 292px;
+  color: #fff;
 }
 .hero-button {
-  border-radius: 4px;
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-top: 16px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 10px;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #4d5ae5;
+  cursor: pointer;
 }
 .hero-button:hover {
   background-color: #404bbf;
-  color: white;
 }
-
-.main-section {
-  width: 1440px;
-  height: 600px;
-  background: #2e2f42;
+.motivation-message .mini-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
-body {
+.motivation-message .description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
-  font-family: "Roboto" sans-serif;
-  background-color: #ffffff;
+}
+.our-team {
+  background-color: #f4f4fd;
+}
+.our-team .title-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.our-team .title-people {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.our-team .profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
+.team-list > li {
+  background-color: #fff;
+}
+.portfolio {
+  background-color: #fff;
+}
+.portfolio .title-portfolio {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.portfolio > h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.portfolio .portfolio-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+footer {
+  background-color: #2e2f42;
+}
+.logo-footer {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+footer > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
