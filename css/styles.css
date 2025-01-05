@@ -35,7 +35,7 @@ ul {
   color: #404bbf;
 }
 .contacts .info {
-  color: #2e2f42;
+  color: #434455;
   text-decoration: none;
   font-weight: 400;
   font-size: 16px;
@@ -53,7 +53,7 @@ ul {
 .hero-section .title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -67,7 +67,8 @@ ul {
   background-color: #4d5ae5;
   cursor: pointer;
 }
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #404bbf;
 }
 .motivation-message .mini-title {
@@ -90,10 +91,11 @@ ul {
 .our-team .title-team {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .our-team .title-people {
   font-weight: 500;
@@ -120,12 +122,13 @@ ul {
 .portfolio .title-portfolio {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
-.portfolio > h3 {
+.portfolio .port-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -150,7 +153,7 @@ footer {
   text-transform: uppercase;
   color: #f4f4fd;
 }
-footer > p {
+.footer .descr-footer {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
