@@ -3,9 +3,7 @@ body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
 }
-.page-nav {
-  text-decoration: none;
-}
+
 ul {
   list-style-type: none;
 }
@@ -22,7 +20,7 @@ ul {
 .main-logo .logo {
   color: #2e2f42;
 }
-.page-nav .link {
+.header-menu-link {
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
@@ -30,30 +28,30 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.page-nav .link:hover,
-.page-nav .link:focus {
+.header-menu-link:hover,
+.header-menu-link:focus {
   color: #404bbf;
 }
-.contacts {
+.header-contacts {
   font-style: normal;
 }
-.contacts .info {
-  color: #434455;
+.header-contacts-info {
   text-decoration: none;
+  color: #434455;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-style: normal;
 }
-.contacts .info:hover,
-.contacts .info:focus {
+.header-contacts-info:hover,
+.header-contacts-info:focus {
   color: #404bbf;
 }
 .hero-section {
   background-color: #2e2f42;
 }
-.hero-section .title {
+.hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -74,24 +72,24 @@ ul {
 .hero-button:focus {
   background-color: #404bbf;
 }
-.motivation-message .mini-title {
+.motivation-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.motivation-message .description {
+.motivation-item-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.our-team {
+.team {
   background-color: #f4f4fd;
 }
-.our-team .title-team {
+.team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -100,7 +98,7 @@ ul {
   color: #2e2f42;
   text-transform: capitalize;
 }
-.our-team .title-people {
+.team-list-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -108,7 +106,7 @@ ul {
   text-align: center;
   color: #2e2f42;
 }
-.our-team .profession {
+.team-list-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -122,7 +120,7 @@ ul {
 .portfolio {
   background-color: #fff;
 }
-.portfolio .title-portfolio {
+.portfolio-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -131,14 +129,14 @@ ul {
   color: #2e2f42;
   text-transform: capitalize;
 }
-.portfolio .port-title {
+.portfolio-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.portfolio .portfolio-descr {
+.portfolio-list-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -156,7 +154,7 @@ footer {
   text-transform: uppercase;
   color: #f4f4fd;
 }
-.footer .descr-footer {
+.footer-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
